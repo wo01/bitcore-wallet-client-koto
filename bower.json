@@ -1,8 +1,8 @@
 {
-  "name": "bitcore-wallet-client",
+  "name": "bitcore-wallet-client-koto",
   "main": "index.js",
   "version": "2.1.1",
-  "homepage": "https://github.com/bitpay/bitcore-wallet-client",
+  "homepage": "https://github.com/wo01/bitcore-wallet-client-koto",
   "authors": ["BitPay Inc"],
   "description": "Client for bitcore-wallet-service",
   "keywords": [
