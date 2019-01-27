@@ -2,12 +2,12 @@
 
 BIN_PATH:=node_modules/.bin/
 
-all:	bitcore-wallet-client.js
+all:	bitcore-wallet-client-koto.js
 
 clean:
-	rm bitcore-wallet-client.js
+	rm bitcore-wallet-client-koto.js
 
-bitcore-wallet-client.js: index.js lib/*.js
+bitcore-wallet-client-koto.js: index.js lib/*.js
 	${BIN_PATH}browserify $< > $@
 
 cover:
